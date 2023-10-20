@@ -9,7 +9,7 @@ COPY . /
 
 EXPOSE 8080
 # Install the application dependencies
-RUN pip install -U scratchattach requests qrcode
+RUN pip install -U scratchattach requests qrcode flask
 
 # Define the entry point for the container
 CMD ["python", "main.py"]
