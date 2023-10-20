@@ -7,6 +7,7 @@ WORKDIR /
 # Copy the application files into the working directory
 COPY . /
 
+EXPOSE 8080
 # Install the application dependencies
 RUN pip install -U scratchattach requests qrcode
 
