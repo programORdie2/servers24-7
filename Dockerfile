@@ -11,4 +11,4 @@ COPY . /
 RUN pip install -U scratchattach requests qrcode
 
 # Define the entry point for the container
-CMD ["python", "main.py", --host=0.0.0.0]
+CMD ["python", "main.py"]
